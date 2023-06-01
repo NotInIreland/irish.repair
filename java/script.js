@@ -54,5 +54,9 @@ function game() {
     {
         document.getElementById("flash").innerHTML = "<embed src=" + x.value + " width = 700" + " height = 543" + ">";
     }
+    else
+    {
+        document.getElementById("flash").innerHTML = "<embed src=" + x.value + " width = 700" + " height = 500" + ">";
+    }
     
 }
