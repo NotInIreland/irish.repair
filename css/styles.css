@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: Body;
-  src: url(/fonts/Body.ttf);
+  src: url(/fonts/Montserrat-Medium.ttf);
 }
 body {
   background-color: #1e1e1e;
@@ -20,14 +20,26 @@ body {
   color: #89ff89;
   font-size:4.75em;
   text-align: center;
-  width:fit-content;
   padding-right:0.3em;
   padding-left:0.3em;
   margin:0 auto;
   border-bottom:.125em solid #89ff89;
   text-shadow: 0 2px 4px #89ff89;
   box-shadow: 0 2px 4px #89ff89;
-  clip-path: inset(0px 30px -15px 1px);
+  clip-path: inset(0px 0px -15px 0px);
+
+}
+
+#title {
+  font-family:'Calc';
+  color: #ff6464;
+  font-size:2em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  text-shadow: 0 2px 4px #ff8989;
+
 }
 
 #text
