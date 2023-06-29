@@ -1,69 +1,41 @@
-h1 {
-  color: #9DFEB1;
-  margin-bottom: 0px;
-  margin-top: 0px;
+@font-face {
+  font-family: Calc;
+  src: url(/fonts/ti83.ttf);
 }
-h2 {
-  color: rgb(255, 143, 143);
-  margin-bottom: 5px;
-  margin-top: 0px;
-  font-size: 20px;
-  font-weight: normal;
+@font-face {
+  font-family: Body;
+  src: url(/fonts/Body.ttf);
 }
-h3 {
-  color: rgb(183, 132, 231);
-  margin-bottom: 15px;
-  margin-top: 0px;
-  font-size: 20px;
-}
-h4 {
-  color: rgb(255, 143, 143);
-  margin-bottom: 5px;
-  margin-top: -5px;
-  font-size: 17px;
-  font-weight: normal;
-}
-h5 {
-  color: #9DFEB1;
-  font-size: 25px;
-  margin-bottom: 10px;
-  margin-top: 5px;
-}
-li {
-  list-style-type:disc;
-  color: #6ae081;
+body {
+  background-color: #1e1e1e;
+  position:relative;
+  overflow-x: hidden;
+  margin:1em;
+  padding:1em;
+  border:1em;
 }
 
-body {background-color: #6B6B6B;}
+#header {
+  font-family:'Calc';
+  color: #89ff89;
+  font-size:4.75em;
+  text-align: center;
+  width:fit-content;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  border-bottom:.125em solid #89ff89;
+  text-shadow: 0 2px 4px #89ff89;
+  box-shadow: 0 2px 4px #89ff89;
+  clip-path: inset(0px 30px -15px 1px);
+}
 
-.button1 {
-  background: #696969;
-  border: none;
-  display: block;
-  height: 10px;
-  width: 50px;
-  cursor: pointer;
-}
-.button2 {
-  background: #6B6B6B;
-  border: none;
-  display: block;
-  height: 25px;
-  width: 50px;
-  cursor: pointer;
-}
-.button3 {
-  background: #d46fd4;
-  border: 1px, black;
-  display: block;
-  cursor: pointer;
-}
-.button3:hover {
-  background-color: black;
-  color: #d46fd4;
-}
-.content {
-  max-width: 700px;
-  margin: auto;
-  padding: 10px;
+#text
+{
+  font-family: Body;
+  color: #46bb46;
+  font-size:2em;
+  text-align: center;
+  width:fit-content;
+  margin:0 auto;
 }
