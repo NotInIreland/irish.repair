@@ -6,6 +6,7 @@
   font-family: Body;
   src: url(/fonts/Montserrat-Medium.ttf);
 }
+
 body {
   background-color: #1e1e1e;
   position:relative;
@@ -25,8 +26,12 @@ body {
   margin:0 auto;
   border-bottom:.125em solid #89ff89;
   text-shadow: 0 2px 4px #89ff89;
-  box-shadow: 0 2px 4px #89ff89;
-  clip-path: inset(0px 0px -15px 0px);
+}
+
+@media only screen and (max-width: 550px) {
+  #header {
+      font-size:65px;
+  }
 }
 
 #title {
@@ -49,10 +54,4 @@ body {
   text-align: center;
   width:fit-content;
   margin:0 auto;
-}
-
-@media only screen and (max-width: 550px) {
-  #header {
-      font-size:65px;
-  }
 }
