@@ -15,6 +15,25 @@ body {
   border:1em;
 }
 
+
+#header {
+  font-family:'Calc';
+  color: white;
+  font-size:6em;
+  text-align: center;
+  width:fit-content;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  border-bottom:.125em solid white;
+  
+  animation:FadeIn 1s linear forwards;
+  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.40);
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.40);
+  clip-path: inset(0px 1px -15px 1px);
+}
+
+/*
 #header {
   font-family:'Calc';
   color: #89ff89;
@@ -29,7 +48,7 @@ body {
   clip-path: inset(0px 0px -15px 0px);
 
 }
-
+*/
 #title {
   font-family:'Calc';
   color: #ff6464;
