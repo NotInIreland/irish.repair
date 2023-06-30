@@ -11,8 +11,7 @@ body {
   position:relative;
   overflow-x: hidden;
   font-size:1em;
-  margin:1em;
-  padding:1em;
+  padding:.25em;
   border:1em;
 }
 
@@ -54,6 +53,6 @@ body {
 
 @media only screen and (max-width: 550px) {
   #header {
-      font-size:68px;
+      font-size:65px;
   }
 }
