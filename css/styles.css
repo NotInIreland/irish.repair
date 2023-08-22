@@ -55,3 +55,19 @@ body {
   width:fit-content;
   margin:0 auto;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  background-color: #89ff89;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  font-family: 'calc';
+}
