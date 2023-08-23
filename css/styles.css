@@ -56,18 +56,24 @@ body {
   margin:0 auto;
 }
 
+#gridTitle
+{
+  font-size: 30px;
+  font-family: 'calc';
+}
+
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 5px;
-  background-color: #89ff89;
-  padding: 5px;
+  display:grid;
+  width:36%;
+  grid-template-columns: 45% 45%;
+  column-gap:10%;
+  margin-left:32%;
+  grid-auto-rows:min-content;
+  row-gap:3em;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
-  font-family: 'calc';
+
 }
