@@ -23,8 +23,10 @@ body {
   text-align: center;
   padding-right:0.3em;
   padding-left:0.3em;
+  padding-top:0.2em;
   margin:0 auto;
   border-bottom:.125em solid #89ff89;
+  border-top:.125em solid #89ff89;
   text-shadow: 0 2px 4px #89ff89;
 }
 
@@ -54,6 +56,32 @@ body {
   text-align: center;
   width:fit-content;
   margin:0 auto;
+}
+
+h4
+{
+  font-family: Calc;
+  color: #46bb46;
+  font-size:1.5em;
+  margin:0 auto;
+}
+h5
+{
+  font-family: Calc;
+  color: #46bb46;
+  font-size: .75em;
+  text-align: center;
+  margin:3px;
+}
+
+table, tr, td {
+  border: 1px solid #89ff89;
+  width: 1px;
+}
+
+img {
+  border: 3px solid #1e1e1e;
+  border-bottom: 0px;
 }
 
 #gridTitle
