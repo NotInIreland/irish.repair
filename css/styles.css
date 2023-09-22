@@ -48,6 +48,18 @@ body {
 
 }
 
+#subtitle {
+  font-family:'Calc';
+  color: #89ff89;
+  font-size:2em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  text-shadow: 0 2px 4px #89ff89;
+
+}
+
 #text
 {
   font-family: Body;
