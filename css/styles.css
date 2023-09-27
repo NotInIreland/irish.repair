@@ -7,6 +7,7 @@
   src: url(/fonts/Montserrat-Medium.ttf);
 }
 
+
 body {
   background-color: #1e1e1e;
   position:relative;
@@ -89,11 +90,14 @@ h5
 table, tr, td {
   border: 1px solid #89ff89;
   width: 1px;
+  
 }
+
 
 img {
   border: 3px solid #1e1e1e;
   border-bottom: 0px;
+
 }
 
 #gridTitle
