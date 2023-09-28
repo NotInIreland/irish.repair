@@ -31,6 +31,12 @@ body {
   text-shadow: 0 2px 4px #89ff89;
 }
 
+a { 
+  color: inherit;
+  color: #89ff89;
+
+} 
+
 @media only screen and (max-width: 550px) {
   #header {
       font-size:65px;
@@ -119,7 +125,7 @@ img {
   font-size: 30px;
   font-family: 'calc';
 }
-
+/*
 .grid-container {
   display:grid;
   grid-template-columns: auto auto auto;
@@ -127,4 +133,37 @@ img {
   border: 2px dashed rgba(114, 186, 94, 0.35);
   box-sizing: border-box;
 }
+*/
 
+
+.grid-container {
+  /*width: min(1000px, 100%);*/
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(min(125px, 100%), 8.2em));
+  padding-bottom: 1px;
+}
+.model {
+  font-family: Calc;
+  color: #46bb46;
+  font-size: .75em;
+  text-align: center;
+  margin:.1em;
+  padding-top: .5em;
+  border: 1px solid #89ff89;
+  align-content: center;
+}
+
+.card {
+  border: 1px solid #89ff89;
+}
+
+.calc-img {
+  border: 1px solid #89ff89;
+  margin: 1px;
+  margin-bottom: -.25em;
+}
+.calc-img-wide {
+  border: 1px solid #89ff89;
+  margin: 1px;
+  margin-bottom: -.25em;
+}
