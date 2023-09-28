@@ -135,13 +135,13 @@ img {
 }
 */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  /*grid-gap: 20px;*/
+.flex-container {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
 }
-
-.grid-container-normal {
+/*
+.grid-container {
   display: grid;
   grid-template-columns:repeat(auto-fit, minmax(min(125px, 100%), 8.2em));
   padding-bottom: 1px;
@@ -151,6 +151,7 @@ img {
   grid-template-columns:repeat(auto-fit, minmax(min(125px, 100%), 22.25em));
   padding-bottom: 1px;
 }
+*/
 .model {
   font-family: Calc;
   color: #46bb46;
