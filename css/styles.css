@@ -42,21 +42,7 @@ a {
       font-size:65px;
   }
 }
-/*
-.grid-container {
-  display: grid;
-  grid-template-columns: 450px auto auto;
-  background-color: #2196F3;
-  padding: 5px;
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  align-items: center;
-}
-*/
+
 #title {
   font-family:'Calc';
   color: #ff6464;
@@ -125,33 +111,13 @@ img {
   font-size: 30px;
   font-family: 'calc';
 }
-/*
-.grid-container {
-  display:grid;
-  grid-template-columns: auto auto auto;
-  background: rgba(114, 186, 94, 0.05);
-  border: 2px dashed rgba(114, 186, 94, 0.35);
-  box-sizing: border-box;
-}
-*/
 
 .flex-container {
   display:flex;
   flex-flow: row wrap;
   justify-content: flex-start;
 }
-/*
-.grid-container {
-  display: grid;
-  grid-template-columns:repeat(auto-fit, minmax(min(125px, 100%), 8.2em));
-  padding-bottom: 1px;
-}
-.grid-container-wide {
-  display: grid;
-  grid-template-columns:repeat(auto-fit, minmax(min(125px, 100%), 22.25em));
-  padding-bottom: 1px;
-}
-*/
+
 .model {
   font-family: Calc;
   color: #46bb46;
