@@ -142,13 +142,11 @@ img {
 }
 
 .grid-container-normal {
-  /*width: min(1000px, 100%);*/
   display: grid;
   grid-template-columns:repeat(auto-fit, minmax(min(125px, 100%), 8.2em));
   padding-bottom: 1px;
 }
 .grid-container-wide {
-  /*width: min(1000px, 100%);*/
   display: grid;
   grid-template-columns:repeat(auto-fit, minmax(min(125px, 100%), 22.25em));
   padding-bottom: 1px;
@@ -177,4 +175,13 @@ img {
   border: 1px solid #89ff89;
   margin: 1px;
   margin-bottom: -.25em;
+}
+
+.button1 {
+  background: #1e1e1e;
+  border: none;
+  display: block;
+  height: 10px;
+  width: 50px;
+  cursor: pointer;
 }
