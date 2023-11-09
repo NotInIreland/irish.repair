@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" id="vp" content="user-scalable=no, width=520, initial-scale=0.5, maximum-scale=0.5">
+        <script>
+            window.onload = function() {
+                if (screen.width > 520) {
+                    var mvp = document.getElementById('vp');
+                    //mvp.setAttribute('content','');
+                    mvp.setAttribute('content','width=device-width, initial-scale=1');
+                }
+            }
+        </script>
         <link href='css/styles.css' rel="stylesheet">
         <title>irish.repair</title>
         <link rel="icon" href="img/favicon.svg">

@@ -3,6 +3,7 @@
   src: url(/fonts/ti83.ttf);
 }
 
+
 body {
   background-color: #1e1e1e;
   position:relative;
@@ -24,6 +25,7 @@ body {
   border-bottom:.125em solid #89ff89;
   border-top:.125em solid #89ff89;
   text-shadow: 0 2px 4px #89ff89;
+
 }
 
 #title {
