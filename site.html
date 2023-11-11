@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" id="vp" content="user-scalable=no, width=520, initial-scale=0.5, maximum-scale=0.5">
+        <script>
+            window.onload = function() {
+                if (screen.width > 520) {
+                    var mvp = document.getElementById('vp');
+                    mvp.setAttribute('content','width=device-width, initial-scale=1');
+                }
+            }
+        </script>
+		<link rel="stylesheet" href="/css/styles.css">
+		<script src="/java/script.js"></script>
+		<title>irish.repair</title>
+		<link rel="icon" type="image/x-icon" href="/img/favicon.svg">
+		<style>
+		#cat1, #cat2, #cat3, #cat4, #cat5, #hide {
+            display: none;
+        }
+		</style>
+	</head>
+	<body>
+		<div class="content">
+		<h1>irish.​repair</h1>
+		<br>
+		<h5>Daily Message: 11/10/2023</h5>
+		<h5>I'm getting more calcualtors soon!</h5>
+		<br>
+		<img src="/img/puffin.JPG" alt="zoo" width="200">
+		<br> <br>
+		
+		<button class="button1"
+		onclick="alert('You Found Me!');">
+		</button>
+		
+		<button class="button3" onclick="hide()" id="hide">
+			Click here to hide CATS!!!
+		</button> 
+		<img id="cat1" src="/img/cat.JPG" alt="meow" width="300">
+		<img id="cat2" src="/img/cat2.png" alt="looking" width="300">
+		<img id="cat3" src="/img/cat3.jpg" alt="selfie" width="300">
+		<img id="cat4" src="/img/cat4.JPEG" alt="Evil" width="300"> 
+		<img id="cat5" src="/img/cat5.JPG" alt="Evil" width="300"> 
+		
+		<button class="button3" onclick="show()" id="show">
+			Click here for CATS!!!
+		</button>
+		<br>
+	
+		<h5>Wanna go back? <a href="/index.html">Click Here!</a></h5>
+	</div>
+	</body>
+</html> 

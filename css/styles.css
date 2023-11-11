@@ -107,8 +107,15 @@ h5 {
   text-align: center;
   padding-right:0.3em;
   padding-left:0.3em;
-  margin:0 auto;
-  
+  margin:0 auto; 
+}
+
+h6 {
+  font-family:'Calc';
+  color: rgb(183, 132, 231);
+  margin-bottom: 15px;
+  margin-top: 0px;
+  font-size: .75em;
 }
 
 img {
@@ -149,10 +156,29 @@ img {
 }
 
 .button1 {
+  font-family: Calc;
   background: #1e1e1e;
   border: none;
   display: block;
   height: 10px;
   width: 50px;
   cursor: pointer;
+}
+
+
+.button3 {
+  font-family: Calc;
+  background: #d46fd4;
+  border-color: rgb(8, 8, 8);
+  border-width: 3px;
+  display: block;
+  cursor: pointer;
+  height: 2.75em;
+}
+.button3:hover {
+  font-family: Calc;
+  background: black;
+  color: #d46fd4;
+  border-color: #d46fd4;
+  border-width: 3x;
 }
