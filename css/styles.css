@@ -105,9 +105,11 @@ h5 {
   color: #ff6464;
   font-size:.75em;
   text-align: center;
-  padding-right:0.3em;
-  padding-left:0.3em;
-  margin:0 auto; 
+  margin-bottom: 0.1em;
+  margin-top: -0.5em;
+  text-shadow: 0 2px 4px #ff8989;
+
+  
 }
 
 h6 {
