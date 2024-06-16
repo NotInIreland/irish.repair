@@ -1,0 +1,167 @@
+@font-face {
+  font-family: Calc;
+  src: url(/fonts/ti83.ttf);
+}
+
+body {
+  background-color: #1e1e1e;
+  position:relative;
+  overflow-x: hidden;
+  font-size:1em;
+  padding:.25em;
+  border:1em;
+}
+
+a { 
+  color: #89ff89;
+} 
+
+#center{
+    text-align: center;
+}
+
+img {
+  border: 1px solid #89ff89;
+}
+
+.container-photo{
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+h1{
+  font-family:'Calc';
+  color: #89ff89;
+  font-size:4.75em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  padding-top:0.2em;
+  margin:0 auto;
+  border-bottom:.125em solid #89ff89;
+  border-top:.125em solid #89ff89;
+  text-shadow: 0 2px 4px #89ff89;
+}
+
+h2 {
+  font-family:'Calc';
+  color: #ff6464;
+  font-size:2em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  text-shadow: 0 2px 4px #ff8989;
+}
+
+h3 {
+  font-family:'Calc';
+  color: #89ff89;
+  font-size:1em;
+  text-align: center;
+  padding-right:0.3em;
+  padding-left:0.3em;
+  margin:0 auto;
+  text-shadow: 0 2px 4px #89ff89;
+  margin-top: -.5em;
+}
+
+h4
+{
+  font-family: Calc;
+  color: #46bb46;
+  font-size:1.5em;
+  margin:0 auto;
+}
+
+h5 {
+  font-family:'Calc';
+  color: #ff6464;
+  font-size:1em;
+  text-align: center;
+  margin-bottom: 0.1em;
+  margin-top: -0.5em;
+  text-shadow: 0 2px 4px #ff8989;
+}
+
+h6 {
+  font-family:'Calc';
+  color: #89ff89;
+  margin-top: .5em;
+  font-size: .75em;
+  
+}
+
+.info-left{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    width: 200px;
+    
+}
+.info-right{
+  text-align: left;
+  margin: .5em;
+}
+
+.about {
+  display: flex;
+  grid-template-columns: repeat(2,.15fr);
+  
+    }
+
+
+.flex-container {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.model {
+  font-family: Calc;
+  color: #46bb46;
+  font-size: .75em;
+  text-align: center;
+  margin:.1em;
+  padding-top: .5em;
+  border: 1px solid #89ff89;
+  align-content: center;
+}
+
+.info {
+  font-family: Calc;
+  color: #46bb46;
+  font-size: .75em;
+  text-align: center;
+  margin:.1em;
+  padding-top: .5em;
+  padding-right: .5em;
+  padding-left: .5em;
+  align-content: center;
+  border-bottom: 1px solid #89ff89;
+}
+
+.card {
+  border: 1px solid #89ff89;
+}
+
+.data {
+  border: 1px solid #89ff89;
+  border-right: 0px;
+}
+
+.calc-img {
+  border: 1px solid #89ff89;
+  margin: 1px;
+  margin-bottom: -.25em;
+}
+.calc-img-wide {
+  border: 1px solid #89ff89;
+  margin: 1px;
+  margin-bottom: -.25em;
+}
+
+.flex-container {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}

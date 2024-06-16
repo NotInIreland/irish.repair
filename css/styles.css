@@ -42,7 +42,6 @@ body {
 #subtitle {
   font-family:'Calc';
   color: #89ff89;
-  font-size:1.75em;
   text-align: center;
   padding-right:0.3em;
   padding-left:0.3em;
@@ -67,7 +66,6 @@ h1{
   border-bottom:.125em solid #89ff89;
   border-top:.125em solid #89ff89;
   text-shadow: 0 2px 4px #89ff89;
-
 }
 
 h2 {
@@ -84,7 +82,7 @@ h2 {
 h3 {
   font-family:'Calc';
   color: #89ff89;
-  font-size:1.75em;
+  font-size:1em;
   text-align: center;
   padding-right:0.3em;
   padding-left:0.3em;
@@ -104,18 +102,16 @@ h4
 h5 {
   font-family:'Calc';
   color: #ff6464;
-  font-size:.75em;
+  font-size:1em;
   text-align: center;
   margin-bottom: 0.1em;
   margin-top: -0.5em;
   text-shadow: 0 2px 4px #ff8989;
-
-  
 }
 
 h6 {
   font-family:'Calc';
-  color: rgb(183, 132, 231);
+  color: #89ff89;
   margin-bottom: 15px;
   margin-top: 0px;
   font-size: .75em;
@@ -143,8 +139,26 @@ img {
   align-content: center;
 }
 
+.info {
+  font-family: Calc;
+  color: #46bb46;
+  font-size: .75em;
+  text-align: center;
+  margin:.1em;
+  padding-top: .5em;
+  padding-right: .5em;
+  padding-left: .5em;
+  align-content: center;
+  border-bottom: 1px solid #89ff89;
+}
+
 .card {
   border: 1px solid #89ff89;
+}
+
+.data {
+  border: 1px solid #89ff89;
+  border-right: 0px;
 }
 
 .calc-img {
@@ -167,7 +181,6 @@ img {
   width: 50px;
   cursor: pointer;
 }
-
 
 .button3 {
   font-family: Calc;
