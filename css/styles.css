@@ -198,3 +198,10 @@ img {
   border-color: #d46fd4;
   border-width: 3x;
 }
+
+.footer{ 
+	padding-top: 5em;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+}  

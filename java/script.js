@@ -1,5 +1,6 @@
 var sites = [
-    '/Scientific/HP-35S.html',
+    '/scientific/hp-35s.html',
+    '/graphing/ti-83-plus.html',
 ];
 
 function randomSite() {
