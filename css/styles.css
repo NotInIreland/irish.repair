@@ -36,7 +36,6 @@ body {
   padding-right:0.3em;
   padding-left:0.3em;
   margin:0 auto;
-  text-shadow: 0 2px 4px #ff8989;
 }
 
 #subtitle {
@@ -76,7 +75,6 @@ h2 {
   padding-right:0.3em;
   padding-left:0.3em;
   margin:0 auto;
-  text-shadow: 0 2px 4px #ff8989;
 }
 
 h3 {
@@ -87,7 +85,6 @@ h3 {
   padding-right:0.3em;
   padding-left:0.3em;
   margin:0 auto;
-  text-shadow: 0 2px 4px #89ff89;
   margin-top: -.5em;
 }
 
@@ -106,7 +103,6 @@ h5 {
   text-align: center;
   margin-bottom: 0.1em;
   margin-top: -0.5em;
-  text-shadow: 0 2px 4px #ff8989;
 }
 
 h6 {
@@ -142,7 +138,6 @@ img {
 .info {
   font-family: Calc;
   color: #46bb46;
-  font-size: .75em;
   text-align: center;
   margin:.1em;
   padding-top: .5em;
@@ -159,6 +154,7 @@ img {
 .data {
   border: 1px solid #89ff89;
   border-right: 0px;
+  
 }
 
 .calc-img {
