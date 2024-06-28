@@ -38,6 +38,7 @@ var sites = [
     '/graphing/ti-89.html',
     '/graphing/ti-89-titanium.html',
     '/graphing/ti-92.html',
+    '/graphing/ti-nspire.html',
     '/graphing/ti-nspire-cas.html',
     '/graphing/ti-nspire-cx-cas.html',
     '/graphing/ti-nspire-cx-ii-cas.html',
