@@ -50,3 +50,54 @@ function randomSite() {
     var i = parseInt(Math.random() * sites.length);
     location.href = sites[i];
 }
+
+const images = [
+    'img-calc/Casio 7400G PLUS.JPG',
+    'img-calc/Casio Classpad 300+.JPG',
+    'img-calc/HP 12C.JPG',
+    'img-calc/HP 20S.JPG',
+    'img-calc/HP 35S.JPG',
+    'img-calc/SHARP EL W516X.JPG',
+    'img-calc/TI-30Xa.JPG',
+    'img-calc/TI-30XIIS Blue.JPG',
+    'img-calc/TI-30XIIS Pink.JPG',
+    'img-calc/TI-34.JPG',
+    'img-calc/TI-68.JPG',
+    'img-calc/TI-73 Explorer.JPG',
+    'img-calc/TI-81.JPG',
+    'img-calc/TI-82 Parcus.JPG',
+    'img-calc/TI-82 Stats-fr.JPG',
+    'img-calc/TI-82 Updated.JPG',
+    'img-calc/TI-82.JPG',
+    'img-calc/TI-83 Parcus.JPG',
+    'img-calc/TI-83 Plus Ultraviolet.JPG',
+    'img-calc/TI-83 Plus.jpeg',
+    'img-calc/TI-84 Plus Silver Edition.JPG',
+    'img-calc/TI-85.JPG',
+    'img-calc/TI-86.JPG',
+    'img-calc/TI-89 Titanium.JPG',
+    'img-calc/TI-89.JPG',
+    'img-calc/TI-92.JPG',
+    'img-calc/TI-BA II Plus.JPG',
+    'img-calc/TI-BA II Professional.JPG',
+    'img-calc/TI-Nspire CAS Clickpad.JPG',
+    'img-calc/TI-Nspire CX II CAS.jpeg',
+    'img-calc/TI-Voyage 200.JPG'
+];
+
+function displayRandomImage() {
+    const randomIndex = Math.floor(Math.random() * images.length);
+    const imgElement = document.querySelector('#random-image-container img');
+
+    if (imgElement) {
+        // Update the src of the existing image
+        imgElement.src = images[randomIndex];
+    } else {
+        // Create a new img element and add it to the container
+        const newImgElement = document.createElement('img');
+        newImgElement.src = images[randomIndex];
+        newImgElement.classList.add('random-calc');
+        newImgElement.alt = "Random Calc image";
+        document.getElementById('random-image-container').appendChild(newImgElement);
+    }
+}

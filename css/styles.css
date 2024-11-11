@@ -53,6 +53,10 @@ a {
   color: #89ff89;
 } 
 
+.a2 {
+  color: #ff6464;
+}
+
 h1{
   font-family:'Calc';
   color: #89ff89;
@@ -180,18 +184,20 @@ img {
 
 .button3 {
   font-family: Calc;
-  background: #d46fd4;
-  border-color: rgb(8, 8, 8);
+  background: #89ff89;
+  border-color: #1e1e1e;
   border-width: 3px;
   display: block;
   cursor: pointer;
   height: 2.75em;
+  text-align: center;
+  margin: 0 auto;
 }
 .button3:hover {
   font-family: Calc;
-  background: black;
-  color: #d46fd4;
-  border-color: #d46fd4;
+  background: #1e1e1e;
+  color: #89ff89;
+  border-color: #89ff89;
   border-width: 3x;
 }
 
@@ -201,3 +207,14 @@ img {
 	bottom: 0px;
 	width: 100%;
 }  
+
+img.random-calc {
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.centered {
+  text-align: center;
+
+}
