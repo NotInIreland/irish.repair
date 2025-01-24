@@ -139,6 +139,17 @@ img {
   align-content: center;
 }
 
+.album {
+  font-family: Calc;
+  color: #46bb46;
+  font-size: .75em;
+  text-align: center;
+  margin:.1em;
+  padding-top: .5em;
+  border: 1px solid #89ff89;
+  align-content: center;
+}
+
 .info {
   font-family: Calc;
   color: #46bb46;
@@ -171,7 +182,11 @@ img {
   margin: 1px;
   margin-bottom: -.25em;
 }
-
+.cover-img {
+  border: 1px solid #89ff89;
+  margin: 1px;
+  margin-bottom: -.25em;
+}
 .button1 {
   font-family: Calc;
   background: #1e1e1e;
