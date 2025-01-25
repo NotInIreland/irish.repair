@@ -84,14 +84,19 @@ const images = [
     'img-calc/TI-36X Solar 1990.JPG',
     'img-calc/fx-160.JPG',
     'img-calc/TI-30XIIB Blue.JPG',
-    'img-calc/missing.png',
     'img-calc/Canon LS-100TS.JPG',
     'img-calc/HP 12C.JPG',
     'img-calc/TI-30XIIS Blue.JPG',
     'img-calc/TI-BA II Plus.JPG',
     'img-calc/TI-30Xa Solar SE.JPG',
     'img-calc/TI-34 II.JPG',
-    'img-calc/TI-35X.JPG'
+    'img-calc/TI-35X.JPG',
+    'img-calc/CD 100.JPG',
+    'img-calc/TI Keyboard.JPG',
+    'img-calc/TI Greylink.JPG',
+    'img-calc/TI Sliverlink.JPG',    
+    'img-calc/TI-5029.JPG',
+    'img-calc/Plus Module.JPG'
 ];
 
 function displayRandomImage() {
