@@ -96,7 +96,8 @@ const images = [
     'img-calc/TI Greylink.JPG',
     'img-calc/TI Sliverlink.JPG',    
     'img-calc/TI-5029.JPG',
-    'img-calc/Plus Module.JPG'
+    'img-calc/Plus Module.JPG',
+    'img-calc/TI-84 Plus.JPG'
 ];
 
 function displayRandomImage() {
