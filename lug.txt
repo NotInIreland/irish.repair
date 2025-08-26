@@ -1,0 +1,41 @@
+pwd
+
+mkdir dir1
+
+cd dir1
+
+ls
+
+ls -a
+
+ls -l
+
+touch file17
+
+rm file17
+
+touch file1
+
+mkdir dir2
+
+cd dir2
+
+cd - or cd ..
+
+touch dir2/file2
+
+cp dir2/file2 ~/dir1
+
+ls
+
+rm file2
+
+mv dir2/file2 ¬/dir1
+
+ls
+
+cd dir2
+
+ls
+
+
